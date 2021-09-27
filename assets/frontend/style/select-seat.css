@@ -1,0 +1,83 @@
+    .dx {
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+    
+    #bus-seat {
+        width: 251px;
+        height: 460px;
+        background-color: #fff;
+        margin-left: 130px;
+    }
+    
+    .operator,
+    .number,
+    .empty {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        margin-bottom: 1px;
+        float: left;
+        border-width: 0;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    .number {
+        background-color: green;
+        color: #fff;
+    }
+    
+    .bit {
+        width: 15px;
+        height: 15px;
+        margin: 10px;
+        margin-bottom: 5px;
+        float: left;
+        background-color: green;
+    }
+    
+    .bit1 {
+        width: 15px;
+        height: 15px;
+        float: left;
+        background-color: red;
+    }
+    
+    .tab {
+        margin-top: 130px;
+    }
+    
+    .amz {
+        width: 100px;
+        color: #fff;
+        background-color: rgb(6, 62, 99);
+        font-size: 12px;
+        padding: 6px;
+        margin-left: -1.4px;
+        cursor: pointer;
+        transition: .3s linear;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    
+    .amz a {
+        color: #fff;
+    }
+    
+    .amz:hover {
+        background-color: rgb(6, 99, 94);
+    }
+    
+    @media (max-width: 768px) {
+        #bus-seat {
+            margin-left: 40px;
+            margin-bottom: 20px;
+        }
+        .dx {
+            margin-left: 30px;
+        }
+        .tab {
+            margin-top: 10px;
+        }
+    }

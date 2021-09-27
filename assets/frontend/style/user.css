@@ -1,0 +1,217 @@
+.card-body {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.card {
+    position: relative;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 1px rgba(23, 152, 216, 0.416);
+    overflow: hidden;
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #09b3eb, #086888);
+    clip-path: circle(400px at 50% -48.5%);
+}
+
+.header {
+    position: relative;
+    height: 265px;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .image {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #0794ebbb;
+    margin-bottom: 2px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 1px rgb(228, 231, 233);
+}
+
+.hover.active {
+    opacity: 1;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1;
+    margin: 5px 0;
+}
+
+.con {
+    display: flex;
+    padding: 1.7rem 2.5rem 2.6rem 2.5rem;
+}
+
+.title {
+    position: relative;
+    color: rgb(43, 116, 123);
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0 0 3px 0;
+    margin-bottom: .9rem;
+    display: inline-block;
+}
+
+.title:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    background-color: rgb(11, 235, 235);
+    bottom: 0;
+    left: 0;
+}
+
+.type {
+    color: rgb(43, 104, 139);
+    font-weight: 300;
+    line-height: .3;
+    margin-left: 10px;
+}
+
+.icons-card-body {
+    padding: 1rem 0;
+}
+
+.icon {
+    color: #c4c4c4;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 8px;
+    transition: .3s;
+}
+
+.fab fa-facebook:hover {
+    color: #445ae3;
+}
+
+.fab fa-twitter:hover {
+    color: #44a1e3;
+}
+
+.fab fa-instagram:hover {
+    color: #d12507;
+}
+
+.fab fa-google-plus-g {
+    color: #fd4120;
+}
+
+.buttons-wrap {
+    display: flex;
+    margin-top: 5px;
+}
+
+.edit-wrap,
+.sign-wrap {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.edit-wrap:hover,
+.sign-wrap:hover {
+    flex: 5;
+}
+
+.edit {
+    padding: 9.6px 0;
+    width: 100%;
+    background: linear-gradient(to right, #0edfff 0%, #09f8c8 80%);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: .7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 18.1px;
+    margin-right: 3px;
+}
+
+.signout {
+    padding: 7.6px 0;
+    width: 100%;
+    background: linear-gradient(to right, #ee0170 0%, #fe0000 140%);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: .7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 3px;
+    border-radius: 18.1px;
+}
+
+.edit:hover {
+    color: #fff;
+}
+
+.signout:hover {
+    color: #fff;
+}
+
+.propic {
+    position: absolute;
+    top: 120px;
+    right: 150px;
+    font-size: 1.5rem;
+    color: #ffff;
+    opacity: .8;
+    transition: .3s;
+    z-index: 3;
+    text-decoration: none;
+}
+
+.propic:hover {
+    opacity: 1;
+}
+
+input {
+    width: 19%;
+    text-align: left;
+    text-decoration: none;
+    font-size: .7rem;
+    padding: 7.6px 0;
+    line-height: 2.3;
+}
+
+button {
+    text-align: center;
+    text-decoration: none;
+    font-size: .7rem;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding: 7.6px 0;
+}

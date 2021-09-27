@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  html,body{
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: #f2f2f2;
+    text-align: center;
+  }
+  .ser{
+    padding: 0 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .scard{
+    height: 290px;
+    max-width: 350px;
+    margin: 0 20px;
+    background-color: white;
+    transition: 0.4s;
+    box-shadow:5px 5px 10px rgb(0,0,0,0.2);
+    border-radius: 10px;
+  }
+  .scard:hover{
+    height: 390px;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.2);
+  }
+  .scard .img{
+    height: 200px;
+    width: 100%;
+  }
+  .scard .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .scard .top-write{
+    padding: 5px;
+  }
+  .scard .top-write .name{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ff1764;
+  }
+  .scard .top-write p{
+    font-size: 20x;
+    font-weight: 600;
+    color: #264896;
+    line-height: 20px;
+  }
+  .scard .bottom-write{
+    padding: 0 20px 10px 20px;
+    margin-top: 5px;
+    background: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+  }
+  .scard:hover .bottom-write{
+    opacity: 1;
+    visibility: visible;
+    
+  }
+  .scard .bottom-write .write{
+    text-align: justify;
+  
+  }
+  .scard .bottom-write .serbtn{
+    margin: 10px 0;
+    text-align: left;
+  }
+  .scard .bottom-write .serbtn a{
+    text-decoration: none;
+    background: #e74c3c;
+    color: #fffdfd;
+    padding:5px 8px;
+    border-radius: 3px;
+    display: inline-flex;
+    transition: 0.2s;
+  }
+  .scard .bottom-write .serbtn a:hover{
+    transform: scale(0.9);
+  }
+  @media screen and (max-width:978px){
+    .ser{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .scard{
+      max-width: 700px;
+      margin: 30px 0;
+    }
+  }
+  

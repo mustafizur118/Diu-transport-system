@@ -1,0 +1,207 @@
+.containerser {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+@media (min-width:576px) {
+    .containerser {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .containerser {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .containerser {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .containerser {
+        max-width: 1152px;
+    }
+}
+
+.ser-flex {
+    display: flex;
+}
+
+.ser-items-center {
+    align-items: center;
+}
+
+.ser-justify-center {
+    justify-content: center;
+}
+
+.containerser {
+    position: relative;
+}
+
+.service {
+    background: rgba(226, 226, 226, 0.897);
+}
+
+.ser-head {
+    font-family: "Raleway-bold";
+    text-align: center;
+    Position: relative;
+    margin-bottom: 6rem;
+}
+
+.ser-card {
+    background-color: #fff;
+}
+
+.ser-head:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-image: url(../icons/hr.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -40px;
+}
+
+.service .ser-silder .ser-card {
+    padding: 1.5rem 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.service .ser-silder .ser-card .ser-image img {
+    width: 95%;
+    height: 150px;
+    object-fit: contain;
+    padding-bottom: 1rem;
+}
+
+hr {
+    border: 1px solid rgb(243, 243, 243);
+    opacity: 0.8;
+    margin: 1rem 0;
+}
+
+.service .ser-silder .ser-card h2 {
+    font-family: "Raleway-bold";
+    font-size: 1.3rem;
+    margin-bottom: 0.25rem;
+}
+
+.ser-text-center {
+    text-align: center;
+}
+
+.service .ser-silder .ser-card {
+    margin-bottom: 0.5rem;
+}
+
+.service .ser-silder .ser-card .price {
+    color: rgb(56, 56, 55);
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.service .ser-silder .ser-card button {
+    font-family: "Raleway-medium";
+    color: rgb(107, 101, 101);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(8, 112, 131);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.service .ser-silder .ser-card button:hover {
+    background: rgb(8, 112, 131);
+    color: #fff;
+}
+
+button a:hover {
+    background: rgb(8, 112, 131);
+    color: #fff;
+}
+
+.slick-slide {
+    margin: 0 20px;
+}
+
+.slick-list {
+    margin: 0 -20px;
+}
+
+.service .ser-slider-btn {
+    width: 20px;
+    height: 25px;
+    border: none;
+    background: #EEBF00;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.ser-prev-btn {
+    position: absolute;
+    top: 100%;
+    left: 500px;
+    z-index: 1;
+}
+
+.ser-next-btn {
+    position: absolute;
+    top: 100%;
+    right: -4rem;
+    z-index: 1;
+}
+
+.service .slider-ser {
+    position: relative;
+}
+
+.slick-track {
+    padding: 1rem 0;
+}
+
+.ser-flex-1 {
+    flex: 1;
+}
+
+@media (max-width:768px) {
+    .containerser {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .ser-card {
+        margin-left: 5px;
+    }
+}
+
+@media( max-width:576px) {
+    .containerser {
+        padding-left: 1rem;
+    }
+    .ser-card {
+        margin-left: 5px;
+    }
+}

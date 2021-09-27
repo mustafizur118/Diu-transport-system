@@ -1,0 +1,155 @@
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff
+}
+
+.h4,
+h4 {
+    font-size: 18px
+}
+
+.row b,
+strong {
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 2em
+}
+
+.abx {
+    background: #2a9cb8;
+    padding: 8px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.abx b {
+    color: #ffffff;
+    margin: 5px 0;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.hidden-xy {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    background-color: rgba(115, 180, 218, 0.897);
+    border-radius: 4px;
+}
+
+.eabd h4,
+.eabd p {
+    margin: 0;
+}
+
+.eabd {
+    padding: 15px 10px;
+    background-color: rgba(250, 250, 250, 0.979);
+    transition: 0.3s;
+    border: 1px solid rgb(233, 231, 231);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.abdvb {
+    width: 90px;
+    border-radius: 0 !important;
+    margin-top: 5px !important;
+}
+
+.tg-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/**/
+
+@media (max-width:767px) {
+    .hidden-xs {
+        display: none!important
+    }
+}
+
+@media (max-width:767px) {
+    .hidden-xy {
+        display: none!important
+    }
+}
+
+@media (min-width:1200px) {
+    .hidden-lg {
+        display: none!important
+    }
+}
+
+
+/**/
+
+.pull-right {
+    float: right!important
+}
+
+.pull-left {
+    float: left!important
+}
+
+.hide {
+    display: none!important
+}
+
+.show {
+    display: block!important
+}
+
+.invisible {
+    visibility: hidden
+}
+
+@media(max-width:1200px) {
+    .tg-container {
+        padding: 0 1%;
+        width: 98%
+    }
+    .boxed {
+        width: 97%
+    }
+    .full-width .alignwide {
+        margin-left: -10px;
+        margin-right: -10px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bldec {
+        display: flex;
+        margin: 10px 0
+    }
+    .bldec small {
+        font-size: 14px;
+    }
+    .vliss {
+        width: 100px;
+        font-weight: bold;
+    }
+    .vsiss {
+        width: 15px;
+    }
+    .hidden_xs {
+        display: none;
+    }
+}

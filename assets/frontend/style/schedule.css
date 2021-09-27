@@ -1,0 +1,13 @@
+.schedule-container {
+    width: 75%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-container {
+        width: 100%;
+    }
+}
